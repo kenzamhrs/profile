@@ -1,0 +1,85 @@
+/* Colours and Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background: #FFE9CE;
+  color:#1C0F13;
+  font-family: 'Lora', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color:#1C0F13;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: lighter;
+  font-weight: 400;
+}
+
+h2 {
+  color: #1C0F13;
+  font-size: 200;
+  font-weight: 400;
+}
+
+a {
+  font-family:'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #928779;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+a:hover {
+  color:#1C0F13;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  max-width: 100%;
+  border: 0;
+}
+
+.text-center {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.card {
+  background: 700px #FFFF;
+  padding: 40px;
+  margin: 30px auto;
+  width: 600px;
+  box-shadow: 0 10px 20px #917C78;
+}
+
+.liste > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
